@@ -14,34 +14,37 @@
 <body>
     <main>
 
-    <header>
-        <h1>Nethmi Nanayakkara</h1>
-    </header>
-
-    <nav>
-        <ul>
-            <nav style="display: flex; justify-content: right; gap: 20px;">
-            <li><a href="#">Home</a></li><br/><br/>
-            <li><a href="#">About Me</a></li><br/><br/>
-            <li><a href="#">Skills</a></li><br/><br/>
-            <li><a href="#">Education</a></li><br/><br/>
-            <li><a href="#">Services</a></li><br/><br/>
-            <li><a href="#">Projects</a></li><br/><br/>
-            <li><a href="#">Contact Me</a></li><br/><br/><br/><br/>
+        <header>
+            <div class="logo">
+                <div class="circle yellow"></div>
+                <div class="circle blue"></div>
+                <span>Nethmi Nanayakkara</span>
+            </div>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About Me</a>
+                <a href="#">Skills</a>
+                <a href="#">Education</a>
+                <a href="#">Services</a>
+                <a href="#">Project</a>
+                <a href="#" class="contact">Contact Me</a>
             </nav>
-        </ul>
-    </nav>
+        </header>
     
-        <h2>Hi, I am </h2>
-        <h2>Nethmi Nanayakkara</h2>
-        <i><h1>Full Stack</h1>
-        <h1>Developer</h1></i>
-        <h2><p>I am a passionate Full-Stack Developer driven by a desire</p></h2>
-        <h2><p>  to create impactful and user-centric digital experiences.</p></h2>
-        <button class="button">Hire Me</button>
-        <a href="#" class="button">Download CV</a>
+        <section class="main">
+            <div class="intro">
+                <p>Hi, I am</p>
+                <h1 class="name">Nethmi Nanayakkara</h1>
+                <h2 class="letters">Fullstack <br> Developer</h2>
+                <p class="description">I am a passionate Full-Stack Developer driven by a desire to create impactful and user-centric digital experiences.</p>
+                <div class="buttons">
+                    <button class="hire">Hire Me</button>
+                    <button class="download"> Download CV</button>
+                </div>
+            </div>
+        </section>
 
-    <br/><br/><br/>
+    <br/><br/>
 
     <img src="/assets/images/prof img.jpg" alt="me" style="width: 500px; height: 500px; object-fit: cover;"/>
 
@@ -160,5 +163,49 @@
                             <a href="#" class="learn-more">Learn More</a>
                         </div>
                     </main>
+                    <section class="contact-section">
+                        <h2><i class="fa-solid fa-headset"></i> Get in <span class="highlight">Touch</span></h2>
+                        <div class="contact-container">
+                            <div class="contact-image">
+                                <img src="/assets/images/aboutImg-removebg-preview.png" alt="Customer Support Illustration">
+                            </div>
+                            <div class="contact-form">
+                                <input type="text" placeholder=" Name"><br/>
+                                <input type="email" placeholder=" Email"><br/>
+                                <input type="tel" placeholder=" Phone"><br/>
+                                <textarea placeholder=" Message"></textarea><br/>
+                                <button class="submit-btn">Submit</button>
+                            </div>
+                        </div>
+                    </section>
+
+                    <header>
+                            <span>Nethmi Nanayakkara</span>
+                        <nav>
+                            <a href="#">Home</a>
+                            <a href="#">About Me</a>
+                            <a href="#">Skills</a>
+                            <a href="#">Education</a>
+                            <a href="#">Services</a>
+                            <a href="#">Project</a>
+                        </nav>
+                        <button class="back-to-top">Back To Top</button>
+                    </header>
+                    
+                    <footer>
+                        <img src="/assets/images/facebook.png" alt="facebook" style="width: 50px; height: 50px; object-fit: cover;"/>
+
+                        <img src="/assets/images/instagram.png" alt="instagram" style="width: 50px; height: 50px; object-fit: cover;"/>
+
+                        <img src="/assets/images/linkedin.png" alt="linkedin" style="width: 50px; height: 50px; object-fit: cover;"/>
+
+                        <img src="/assets/images/whatsapp.png" alt="whatsapp" style="width: 50px; height: 50px; object-fit: cover;"/>
+
+                        <img src="/assets/images/github.png" alt="github" style="width: 50px; height: 50px; object-fit: cover;"/>
+                        
+                        <div class="copyright">
+                            &copy; 2025 <span class="highlight">Nethmi Nanayakkara</span> All Rights Reserved, Inc.
+                        </div>
+                    </footer>
 </body>
 </html>
