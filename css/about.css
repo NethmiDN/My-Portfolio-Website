@@ -1,0 +1,61 @@
+.about-head .about-icon {
+    margin-right: 13px; /* Increase this value to increase the space */
+    color: white;
+    text-align: center;
+}
+
+.about-head {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+.my-image {
+    float: left; 
+    margin-right: 60px; 
+    width: 500px; 
+    height: 500px; 
+    object-fit: cover;
+}
+
+.about-paragraph {
+    color: wheat;
+    font-style: italic;
+    font-family: "Ubuntu", sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    font-size: 30px;
+    text-shadow: 0 0 5px black;
+}
+
+.about-details {
+    word-spacing: 25px;
+    color: white;
+}
+
+.about-icon {
+    font-size: 28px;
+}
+
+.details-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.about-info {
+    display: grid;
+    grid-template-columns: 250px auto;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.label {
+    font-weight: bold;
+    color: yellow; /* Yellow color for labels */
+}
+
+.info {
+    color: white;
+}

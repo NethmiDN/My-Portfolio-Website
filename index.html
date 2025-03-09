@@ -10,130 +10,215 @@
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" 
     referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/about.css">
+    <link rel="stylesheet" href="/css/skills.css">
+    <link rel="stylesheet" href="/css/education.css">
+    <link rel="stylesheet" href="/css/services.css">
+    <link rel="stylesheet" href="/css/work.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/js/burger.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="/js/main.js" defer></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
 </head>
 <body>
+    <header class="head">
+        <div class="container">
+            <div class="circle circle-left"></div>
+            <div class="circle circle-right"></div>
+            <h3 class="headname">Nethmi Nanayakkara</h3>
 
-        <header>
-                <span>Nethmi Nanayakkara</span>
-            <nav>
-                <a href="#Home">Home</a>
-                <a href="#About">About Me</a>
-                <a href="#Skills">Skills</a>
-                <a href="#Education">Education</a>
-                <a href="#Services">Services</a>
-                <a href="#Project">Project</a>
-                <a href="#ContactMe">Contact Me</a>
-            </nav>
-        </header>
+        <nav class="navigation">
+            <ul class="nav-links">
+                <li><a href="#Home"><b>Home</b></a></li>
+                <li><a href="#About"><b>About Me</b></a></li>
+                <li><a href="#Skills"><b>Skills</b></a></li>
+                <li><a href="#Education"><b>Education</b></a></li>
+                <li><a href="#Services"><b>Services</b></a></li>
+                <li><a href="#Project"><b>Project</b></a></li>
+                <li><a href="#ContactMe" id="contact-btn"><b>Contact Me</b></a></li>
+            </ul>
+        </nav>
+        <i class='bx bx-menu'id="burger" aria-hidden="true"></i>
+        <nav class="menu-panel" id="menu-panel-id">
+            <button class="close-btn" id="btn-close">&times;</button>
+            <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About Me</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#Project">Project</a></li>
+            <li><a href="#ContactMe">Contact Me</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
     <main>
         <section id = "Home">
             <div class="intro">
-                <p>Hi, I am</p>
+                <p class="hi">Hi, I am</p>
                 <h1 class="name">Nethmi Nanayakkara</h1>
-                <h2 class="letters">Fullstack <br> Developer</h2>
-                <p class="description">I am a passionate Full-Stack Developer driven by a desire to create impactful and user-centric digital experiences.</p>
+
+                <div class="full-stack">
+                    <span class="stack">F</span>
+                    <span class="stack">u</span>
+                    <span class="stack">l</span>
+                    <span class="stack">l</span>
+                    <span class="stack">-</span>
+                    <span class="stack">S</span>
+                    <span class="stack">t</span>
+                    <span class="stack">a</span>
+                    <span class="stack">c</span>
+                    <span class="stack">k</span>
+                </div>
+
+                <div class="developers">
+                    <span class="dev">D</span>
+                    <span class="dev">e</span>
+                    <span class="dev">v</span>
+                    <span class="dev">e</span>
+                    <span class="dev">l</span>
+                    <span class="dev">o</span>
+                    <span class="dev">p</span>
+                    <span class="dev">e</span>
+                    <span class="dev">r</span>
+                </div>
+
+                <p class="description"><b>I am a passionate Full-Stack Developer <br/> driven by a desire to create impactful <br/> and user-centric digital experiences.</b></p>
                 <div class="buttons">
                     <button class="hire">Hire Me</button>
-                    <button class="download"> Download CV</button>
+                    <button class="download"><img src="/assets/images/download.png" alt="dimg" class="dimg"> Download CV</button>
+                </div>
+                <div class="social-media">
+                    <div class="blue-circle">
+                        <a href="  https://www.facebook.com/share/1DPN8Wzc1z/"target="blank"><img src="/assets/images/fb.png" alt="facebook" class="fb"/></a>
+                    </div>
+                    <div class="blue-circle">
+                        <a href="https://www.instagram.com/n_e_t_h_m_i_44?igsh=eGQzeDhibjRjajI0"target="blank"><img src="/assets/images/insta.png" alt="instagram" class="insta" /></a>
+                    </div>
+                    <div class="blue-circle">
+                    <a href="https://www.linkedin.com/feed/"target="blank"><img src="/assets/images/lkdin.png" alt="linkedin" class="linkedin"/></a>
+                    </div>
+                    <div class="blue-circle">
+                    <a href="https://github.com/NethmiDN" target="blank"><img src="/assets/images/gb.png" alt="github" class="github"/></a>
+                    </div>
                 </div>
             </div>
     <br/><br/>
-                <img src="/assets/images/prof img.jpg" alt="icon" style="float: left; margin-right: 10px; width: 400px; height: 500px; object-fit: cover;"/>
-
-                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-
-                <a href="  https://www.facebook.com/share/1DPN8Wzc1z/"target="blank"><img src="/assets/images/facebook.png" alt="facebook" style="width: 50px; height: 50px; object-fit: cover;"/></a>
-
-                <a href="https://www.instagram.com/n_e_t_h_m_i_44?igsh=eGQzeDhibjRjajI0"target="blank"><img src="/assets/images/instagram.png" alt="instagram" style="width: 50px; height: 50px; object-fit: cover;"/></a>
-
-                <a href="https://www.linkedin.com/feed/"target="blank"><img src="/assets/images/linkedin.png" alt="linkedin" style="width: 50px; height: 50px; object-fit: cover;"/></a>
-
-                <a href=""target="blank"><img src="/assets/images/whatsapp.png" alt="whatsapp" style="width: 50px; height: 50px; object-fit: cover;"/></a>
-
-                <a href="https://github.com/NethmiDN" target="blank"><img src="/assets/images/github.png" alt="github" style="width: 50px; height: 50px; object-fit: cover;"/></a>
-              
+                <img src="/assets/images/now.png" alt="icon" class="prof-img"/>
+        
 </section>
-
+<br/><br/>
 <section id="About">
 
     <header>
-        <h1><i class="fa-solid fa-user"></i>  About Me</h1>
+        <h1 class="about-head">
+            <span class="about-icon"><i class="fa-solid fa-user"></i></span> About Me
+        </h1>
     </header>
 
-    <img src="/assets/images/abouticon.jpeg" alt="icon" style="float: left; margin-right: 10px; width: 400px; height: 500px; object-fit: cover;"/>
+    <img src="/assets/images/circle.png" alt="icon" class="my-image"/>
 
-    <h2><p> I am constantly exploring new technologies and best practices to enhance my skills and build high-quality applications. I am a collaborative team player with excellent communication and interpersonal skills, and I am eager to contribute to projects that make a positive impact.</p></h2>
+    <h2><p class="about-paragraph"> I am constantly exploring new technologies and best practices to enhance my skills and build high-quality applications. I am a collaborative team player with excellent communication and interpersonal skills, and I am eager to contribute to projects that make a positive impact.</p></h2>
 
-    <p>Age                   21<br/><br/>
-        Residence            Sri Lanka<br/><br/>
-        Address              Galle<br/><br/>
-        E mail                nethminanayakkara277@gmail.com<br/><br/>
-        Phone                +94716514264</p>
+        <div class="details-container">
+            <div class="about-info">
+                <div class="label">Age</div> <div class="info">21</div>
+                <div class="label">Residence</div> <div class="info">Sri Lanka</div>
+                <div class="label">Address</div> <div class="info">Galle</div>
+                <div class="label">E-mail</div> <div class="info">nethminanayakkara277@gmail.com</div>
+                <div class="label">Phone</div> <div class="info">+94716514264</div>
+            </div>
+        </div>
 
 </section>
 
     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 <section id="Skills">
+
     <header>
-        <h1><i class="fas fa-code"></i>  Skills </h1>
+        <h1 class="skill-head">
+            <span class="skill-icon"><i class="fas fa-code"></i></span> Skills
+        </h1>
     </header>
 
-            <div class="skill-card">
-                <img src="/assets/images/node.png" alt="NodeJS">
-                <p>NodeJS</p>
-            </div>
-            <div class="skill-card">
-                <img src="/assets/images/html5.png" alt="HTML5">
-                <p>HTML5</p>
-            </div>
-            <div class="skill-card">
-                <img src="/assets/images/css3.png" alt="CSS3">
-                <p>CSS3</p>
-            </div>
-            <div class="skill-card">
-                <img src="/assets/images/githubi.png" alt="GitHub">
-                <p>GitHub</p>
-            </div>
-            <div class="skill-card">
-                <img src="/assets/images/java.png" alt="Java">
-                <p>Java</p>
-            </div>
-            <div class="skill-card">
-                <img src="/assets/images/mysql.png" alt="MySQL">
-                <p>MySQL</p>
-            </div>
+    <div class="skill-box">
+        <div class="skill-card" id="skill">
+            <img src="/assets/images/node.png" alt="NodeJS">
+            <p>NodeJS</p>
+        </div>
+        <div class="skill-card">
+            <img src="/assets/images/html5.png" alt="HTML5">
+            <p>HTML5</p>
+        </div>
+        <div class="skill-card">
+            <img src="/assets/images/css3.png" alt="CSS3">
+            <p>CSS3</p>
+        </div>
+        <div class="skill-card">
+            <img src="/assets/images/githubi.png" alt="GitHub">
+            <p>GitHub</p>
+        </div>
+        <div class="skill-card">
+            <img src="/assets/images/java.png" alt="Java">
+            <p>Java</p>
+        </div>
+        <div class="skill-card">
+            <img src="/assets/images/mysql.png" alt="MySQL">
+            <p>MySQL</p>
+        </div>
+    </div>
 
 </section>
-
+<br/><br/><br/><br/>
 <section id="Education">
 
-        <header>  <h1><i class="fas fa-graduation-cap"></i> Education</h1></header>
+        <header>
+            <h1 class="education-head">
+                <span class="education-icon"><i class="fas fa-graduation-cap"></i></span> Education
+            </h1>
+        </header>
+
             <p class="quote">Education is not the learning of facts, but the training of the mind to think</p>
             <div class="education-container">
                 <div class="education-card">
-                <img src="/assets/images/ijse.jpg" alt="IJSE" style="float: left; margin-right: 10px; width: 100px; height: 200px; object-fit: cover;" >
-                <h3>IJSE - Institute of Software Engineering</h3>
-                <p>University of Software Engineering</p>
-                <p>2024 - 2026 | Undergraduate</p>
+                <img src="/assets/images/ijse.jpg" alt="IJSE" class="edu-icon" >
+                <div class="edu-details">
+                    <h3>IJSE - Institute of Software Engineering</h3>
+                    <p>University of Software Engineering</p>
+                    <p>2024 - 2026 | Undergraduate</p>
+                </div>
             </div>
 
 <br/><br/><br/><br/><br/><br/>
 
             <div class="education-card">
-                <img src="/assets/images/sanghamiththa.jpg" alt="Sanghamiththa" style="float: left; margin-right: 10px; width: 100px; height: 200px; object-fit: cover;">
-                <h3>Sanghamiththa Balika Vidyalaya Galle</h3>
-                <p>School</p>
-                <p>2014 - 2022</p>
+                <img src="/assets/images/sanghamiththa.jpg" alt="Sanghamiththa" class="edu-icon">
+                <div class="edu-details">
+                    <h3>Sanghamiththa Balika Vidyalaya Galle</h3>
+                    <p>School</p>
+                    <p>2014 - 2022</p>
+                </div>
             </div>
 
 <br/><br/><br/><br/><br/><br/>
 
             <div class="education-card">
-                <img src="/assets/images/janadhipathi.jpeg" alt="Janadhipathi" style="float: left; margin-right: 10px; width: 100px; height: 200px; object-fit: cover;">
-                <h3>Janadhipathi Balika Vidyalaya Galle</h3>
-                <p>School</p>
-                <p>2009 - 2013</p>
+                <img src="/assets/images/janadhipathi.jpeg" alt="Janadhipathi" class="edu-icon">
+                <div class="edu-details">
+                    <h3>Janadhipathi Balika Vidyalaya Galle</h3>
+                    <p>School</p>
+                    <p>2009 - 2013</p>
+                </div>
             </div>
         </div>
 
@@ -143,87 +228,130 @@
 
 <section id="Services">
 
-        <header><h2> <i class="fa-solid fa-laptop-code"></i> Services</h2></header>
-        <div class="box">
-            <img src="/assets/images/uiux.png" alt="UI/UX" style="width: 50px; height: 50px; object-fit: cover;">
+    <header>
+        <h1 class="service-head">
+            <span class="service-icon"><i class="fa-solid fa-laptop-code"></i></span> Services
+        </h1>
+    </header>
+
+    <div class="service-container">
+        <div class="service-box">
+            <img src="/assets/images/uiux.png" alt="UI/UX" class="service-img">
             <h3>UI & UX</h3>
-            <a href="#" class="learn-more">Learn More</a>
+            <p id="ui-ux">User experience design, upon which is the centralized requirements for "User Experience Design Research", defines the experience a user would go through when interacting with a company, its services, and its products.</p>
         </div>
-        <div class="box">
-            <img src="/assets/images/appdesign.png" alt="App Design" style="width: 50px; height: 50px; object-fit: cover;" >
-            <h3>App Design</h3>
-            <a href="#" class="learn-more">Learn More</a>
+        <div class="service-box">
+            <img src="/assets/images/appdesign.png" alt="App Design" class="service-img" >
+            <h3>APP DESIGN</h3>
+            <p id="app-design">Design is a concept, proposal, or intentional creation of an object, process, or system by a thinking agent. It can also refer to the inherent nature of something. The verb "to design" describes the process of developing a design.</p>
         </div>
-        <div class="box">
-            <img src="/assets/images/webdesign.png" alt="Web Design" style="width: 50px; height: 50px; object-fit: cover;" >
-            <h3>Web Design</h3>
-            <a href="#" class="learn-more">Learn More</a>
+        <div class="service-box">
+            <img src="/assets/images/webdesign.png" alt="Web Design" class="service-img" >
+            <h3>WEB DESIGN</h3>
+            <p id="web-design">Web design involves various skills and disciplines for creating and maintaining websites, including graphic design, user interface design, coding, user experience design, and search engine optimization.</p>
         </div>
+    </div>
 
 </section>
                     
 <section id="Project">
                 
-    <h2>Works</h2>
-        <div class="box">
-            <img src="/assets/images/tictac.png" alt="Tic Tac Toe" style="width: 50px; height: 50px; object-fit: cover;" >
+    <header>
+        <h1 class="work-head">
+            <span class="work-icon"><i class="fa-solid fa-computer"></i></span> Works
+        </h1>
+    </header>
+    <div class="work-container">
+        <div class="work-box">
+            <img src="/assets/images/tictac.png" alt="Tic Tac Toe" class="work-img">
             <h3>Tic Tac Toe</h3>
-            <a href="#" class="learn-more">Learn More</a>
+            <a href="https://github.com/NethmiDN/OOP-Coursework.git" target="_blank" class="learn-more">Learn More <img src="/assets/images/next.png" alt="" id="next"></a>
         </div>
-        <div class="box">
-            <img src="/assets/images/project.png" alt="Garment Management" style="width: 50px; height: 50px; object-fit: cover;" >
+        <div class="work-box">
+            <img src="/assets/images/project.png" alt="Garment Management" class="work-img">
                 <h3>Garment Management System</h3>
-                <a href="#" class="learn-more">Learn More</a>
+                <a href="https://github.com/NethmiDN/StitchWave-1st-Semester-Final-Project.git" target="_blank" class="learn-more">Learn More <img src="/assets/images/next.png" alt="" id="next"></a>
         </div>
+    </div>
 
 </section>
 
 <section id="ContactMe">
 
-    <h2><i class="fa-solid fa-headset"></i> Get in <span class="highlight">Touch</span></h2>
+    <header>
+        <h1 class="contact-head">
+            <span class="contact-icon"><i class="fa-solid fa-headset"></i></span> Get in Touch
+        </h1>
+    </header>
         <div class="contact-container">
             <div class="contact-image">
-                <img src="/assets/images/aboutImg-removebg-preview.png" alt="Customer Support Illustration">
+                <img src="/assets/images/aboutImg-removebg-preview.png" alt="Customer Support Illustration" class="customer-support">
             </div>
-        <div class="contact-form">
-            <input type="text" placeholder=" Name"><br/>
-            <input type="email" placeholder=" Email"><br/>
-            <input type="tel" placeholder=" Phone"><br/>
-            <textarea placeholder=" Message"></textarea><br/>
-            <button class="submit-btn">Submit</button>
-        </div>
+            <div class="group-container">
+            <div class="input-group">
+                <input class="input" required type="text" id="name">
+                <label class="name-label" for="name"><i class="fa-regular fa-user"></i> Name</label>
+            </div>
+            <div class="input-group">
+                <input class="input" required type="text" id="email">
+                <label class="name-label" for="email"><i class="fa-regular fa-envelope"></i> Email</label>
+            </div>
+            <div class="input-group">
+                <input class="input" required type="text" id="phone">
+                <label class="name-label" for="phone"><img src="/assets/images/phone.png" class="phone" alt=""> Phone</label>
+            </div>
+            <div class="input-group1">
+                <input class="input1" required type="text" id="message">
+                <label class="name-label1" for="message"><img src="/assets/images/message.png" class="message" alt=""> Message</label>
+            </div>
+            <button type="submit" class="submit-btn">Submit <img src="/assets/images/telegram.png" alt=""></button>
+
+            </div>
         </div>
 
 </section>
 <section id="bottom">
-            <span>Nethmi Nanayakkara</span>
-        <nav>
-            <a href="#Home">Home</a>
-            <a href="#About">About Me</a>
-            <a href="#Skills">Skills</a>
-            <a href="#Education">Education</a>
-            <a href="#Services">Services</a>
-            <a href="#Project">Project</a>
-        <br/>
-            <button><a href="#Home" class="back-to-top">Back To Top</a></button>
+    <div class="footer">
+    <div class="circle-f circle-left-f"></div>
+    <div class="circle-f circle-right-f"></div>
+    <h3 class="headname-f">Nethmi Nanayakkara</h3> 
+    
+    <nav class="navigation-f">
+        <ul class="nav-links-f">
+            <li><a href="#Home"><b>Home</b></a></li>
+            <li><a href="#About"><b>About Me</b></a></li>
+            <li><a href="#Skills"><b>Skills</b></a></li>
+            <li><a href="#Education"><b>Education</b></a></li>
+            <li><a href="#Services"><b>Services</b></a></li>
+            <li><a href="#Project"><b>Project</b></a></li>
+        </ul>
+    </nav>
+
+    <div class="social-media-f">
+        <div class="blue-circle-f">
+            <a href="  https://www.facebook.com/share/1DPN8Wzc1z/"target="blank"><img src="/assets/images/fb-f.png" alt="facebook" class="fb-f"/></a>
+        </div>
+        <div class="blue-circle-f">
+            <a href="https://www.instagram.com/n_e_t_h_m_i_44?igsh=eGQzeDhibjRjajI0"target="blank"><img src="/assets/images/insta-f.png" alt="instagram" class="insta-f" /></a>
+        </div>
+        <div class="blue-circle-f">
+        <a href="https://www.linkedin.com/feed/"target="blank"><img src="/assets/images/linkedin-f.png" alt="linkedin" class="linkedin-f"/></a>
+        </div>
+        <div class="blue-circle-f">
+        <a href="https://github.com/NethmiDN" target="blank"><img src="/assets/images/github-f.png" alt="github" class="github-f"/></a>
+        </div>
+    </div>
+
+    <a href="#Home" id="back-to-top"><b>Back To Top</b><img src="/assets/images/top.png" alt="" class="back-to"></a>
+
+</div>      
+
         </section> 
-        </nav>  
     </main>
                     
             <footer>
-                
-                <a href="  https://www.facebook.com/share/1DPN8Wzc1z/"target="blank"><img src="/assets/images/facebook.png" alt="facebook" style="width: 50px; height: 50px; object-fit: cover;"/></a>
-
-                <a href="https://www.instagram.com/n_e_t_h_m_i_44?igsh=eGQzeDhibjRjajI0"target="blank"><img src="/assets/images/instagram.png" alt="instagram" style="width: 50px; height: 50px; object-fit: cover;"/></a>
-
-                <a href="https://www.linkedin.com/feed/"target="blank"><img src="/assets/images/linkedin.png" alt="linkedin" style="width: 50px; height: 50px; object-fit: cover;"/></a>
-
-                <a href=""target="blank"><img src="/assets/images/whatsapp.png" alt="whatsapp" style="width: 50px; height: 50px; object-fit: cover;"/></a>
-
-                <a href="https://github.com/NethmiDN" target="blank"><img src="/assets/images/github.png" alt="github" style="width: 50px; height: 50px; object-fit: cover;"/></a>
-              
                 <div class="copyright">
-                    &copy; 2025 <span class="highlight">Nethmi Nanayakkara</span> All Rights Reserved, Inc.
+                    <div class="rights">&copy; 2025 <span class="highlight">Nethmi Nanayakkara</span> All Rights Reserved, Inc.</div>
                 </div>
             </footer>
 

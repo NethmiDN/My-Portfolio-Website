@@ -1,0 +1,67 @@
+.work-head .work-icon {
+    margin-right: 13px; /* Increase this value to increase the space */
+    color: white;
+    text-align: center;
+}
+
+.work-head {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+.work-container{
+    display: grid; /* Use Flexbox */
+    grid-template-columns: repeat(2,1fr);
+}
+
+.work-box {
+    width: 250px;
+    height: 280px;
+    border-radius: 10px;
+    background-color:  #757b85;
+    margin-top: 30px;
+    margin-left: 300px;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    display: flex; /* Use Flexbox */
+    flex-direction: column; /* Stack items vertically */
+    text-align: center;
+    color: black;
+    font-family: "Ubuntu", sans-serif;
+    transition: transform 0.1s ease-in-out 0.1s;
+    font-size: 20px;
+}
+
+.work-box:hover {
+    transform: scale(1.1) ;
+}
+
+.work-img {
+    width: 125px; 
+    height: 100px; 
+    object-fit: cover;
+}
+
+.learn-more {
+    background:#FFF100;
+    padding: 8px 15px;
+    border-radius: 25px;
+    font-weight: bold;
+    color: black;
+    height: 30px;
+    width: 175px;
+    text-decoration: none; /* Remove the underline */
+    display: flex;
+    margin-right: 20px;
+    gap: 30px;
+} 
+
+.learn-more:hover {
+    box-shadow: 0 0 10px 5px rgba(255, 255, 0, 0.5); 
+}
+
+#next {
+    margin-right: 10px;
+}

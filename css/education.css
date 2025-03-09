@@ -1,0 +1,55 @@
+.education-head .education-icon {
+    margin-right: 13px; /* Increase this value to increase the space */
+    color: white;
+    text-align: center;
+}
+
+.education-head {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+.quote {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.education-container {
+    display: flex; /* Use Flexbox */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center;
+    color: white;
+}
+
+.education-card {
+    width: 1000px;
+    height: 200px;
+    background-color: #585858;
+    border-radius: 10px;
+    box-shadow: 0 0 8px black;
+    transition: transform 0.1s ease-in-out 0.1s;
+}
+
+.education-card:hover {
+    transform: scale(1.1) ;
+}
+
+.edu-icon {
+    float: left; 
+    margin-right: 10px; 
+    width: 100px; 
+    height: 180px; 
+    object-fit: cover;
+    margin-left: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.edu-details {
+    margin-top: 50px;
+}

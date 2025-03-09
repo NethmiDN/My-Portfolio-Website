@@ -1,0 +1,66 @@
+.service-head .service-icon {
+    margin-right: 13px; /* Increase this value to increase the space */
+    color: white;
+    text-align: center;
+}
+
+.service-head {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+.service-container{
+    display: grid; /* Use Flexbox */
+    grid-template-columns: repeat(3,1fr);
+}
+
+.service-box {
+    width: 250px;
+    height: 280px;
+    border-radius: 10px;
+    background-color:  #757b85;
+    margin-top: 30px;
+    margin-left: 160px;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    display: flex; /* Use Flexbox */
+    flex-direction: column; /* Stack items vertically */
+    text-align: center;
+    color: black;
+    font-family: "Ubuntu", sans-serif;
+    transition: transform 0.1s ease-in-out 0.1s;
+    font-size: 20px;
+}
+
+.service-box:hover {
+    transform: scale(1.1) ;
+}
+
+#ui-ux {
+    margin-top: 5px;
+    font-size: 15px;
+    color: black;
+    padding: 5px;
+}
+
+.service-img {
+    width: 50px; 
+    height: 50px; 
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+#app-design {
+    margin-top: 5px;
+    font-size: 15px;
+    color: black;
+    padding: 5px;
+}
+
+#web-design {
+    margin-top: 5px;
+    font-size: 15px;
+    color: black;
+    padding: 5px;
+}

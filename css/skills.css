@@ -1,0 +1,49 @@
+.skill-head .skill-icon {
+    margin-right: 13px; /* Increase this value to increase the space */
+    color: white;
+    text-align: center;
+}
+
+.skill-head {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+.skill-icon {
+    font-size: 28px;
+}
+
+.skill-box {
+    width: 1400px;
+    height: 70vh;
+    background-color: #4A4A4A;
+    margin-left: 150px;
+    margin-right: 100px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+
+.skill-card {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color:  #696969;
+    margin-top: 40px;
+    margin-left: 130px;
+    display: flex; /* Use Flexbox */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    transition: transform 0.1s ease-in-out 0.1s;
+}
+
+.skill-card:hover {
+    transform: scale(1.1) ;
+}
